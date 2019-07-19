@@ -1,0 +1,18 @@
+.nav-buttons-container {
+  display: flex;
+  position: absolute;
+  top: 50vh;
+  width: 100vw;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.nav-button-left,
+.nav-button-right {
+  padding: 1rem;
+  background-color: grey;
+  opacity: 0.6;
+}
+.nav-button-left:hover,
+.nav-button-right:hover {
+  cursor: pointer;
+}

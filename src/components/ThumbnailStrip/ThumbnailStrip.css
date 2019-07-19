@@ -1,0 +1,12 @@
+.thumbnail-strip-container {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
+.active {
+  opacity: 0.7;
+}
+.inactive {
+  opacity: 1;
+  cursor: pointer;
+}
